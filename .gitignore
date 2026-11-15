@@ -1,0 +1,48 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# ML artifacts and large generated data
+mlruns/
+mlartifacts/
+data/raw/
+data/processed/
+data/sample/
